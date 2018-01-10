@@ -6,8 +6,7 @@ ENV TERM xterm
 
 RUN npm install -g \
     vue-cli \
-    bower \
-    eslint
+    bower
 
 ADD https://dl.yarnpkg.com/debian/pubkey.gpg /tmp/yarn-pubkey.gpg
 RUN apt-key add /tmp/yarn-pubkey.gpg && rm /tmp/yarn-pubkey.gpg
