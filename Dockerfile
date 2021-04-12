@@ -1,4 +1,4 @@
-FROM node:carbon
+FROM node:erbium-alpine3.10
 
 MAINTAINER Dao Anh Dung <dung13890@gmail.com>
 
