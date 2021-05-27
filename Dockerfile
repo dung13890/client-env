@@ -6,8 +6,6 @@ RUN apk update && apk add bash
 
 ENV TERM xterm
 
-RUN apt-get install -y protobuf-compiler
-
 RUN npm install -g \
     create-react-app \
     @vue/cli \
