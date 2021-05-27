@@ -6,7 +6,7 @@ services:
     volumes:
       - ./:/var/www/app
   node:
-    image: dung13890/vue-env
+    image: dung13890/client-env
     restart: always
     environment:
       - NODE_ENV=development
